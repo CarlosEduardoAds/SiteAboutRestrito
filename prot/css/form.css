@@ -1,0 +1,107 @@
+body{
+    background-color: #161d30;
+}
+
+/*botao*/
+.btn {
+  background-color: grey ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 21%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+}
+/*fim botao*/
+
+/*comço container*/
+.bg-img {
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  width: 40.3%;
+  margin-left: 30%;
+  margin-top: 15%;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    background-color: #212a42;
+    padding: 0 16px;
+    border-radius: 20px;
+}
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*fim container*/
+
+/*começo campotxt*/
+input[type=text] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label{
+  color: white;
+
+}
+/*fim campotxt*/
+
+.date1{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.date2{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
